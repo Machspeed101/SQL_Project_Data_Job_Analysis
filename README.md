@@ -33,8 +33,7 @@ ORDER BY salary_year_avg DESC
 LIMIT 10;
 ```
 
-📊 **Visualization:**  
-![Top 10 Most High Paying Jobs](assets\pic1.png)
+
 
 ---
 
@@ -60,8 +59,7 @@ INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 ORDER BY salary_year_avg DESC;
 ```
 
-📊 **Visualization:**  
-![Top 10 Most Common Skills](assets\pic2.png)
+
 
 ---
 
