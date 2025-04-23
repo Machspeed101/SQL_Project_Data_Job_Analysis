@@ -33,8 +33,8 @@ ORDER BY salary_year_avg DESC
 LIMIT 10;
 ```
 
-📈 **Recommended Visualization:**
-- **Bar Chart**: Salary vs. Job Title + Company
+📊 **Visualization:**  
+![Top 10 Most High Paying Jobs](assets\pic1.png)
 
 ---
 
@@ -61,7 +61,7 @@ ORDER BY salary_year_avg DESC;
 ```
 
 📊 **Visualization:**  
-![Top 15 Most Common Skills](top_15_skills_chart.png)
+![Top 10 Most Common Skills](assets\pic2.png)
 
 ---
 
@@ -80,8 +80,7 @@ ORDER BY demand_count DESC
 LIMIT 5;
 ```
 
-📉 **Suggested Visualization:**
-- **Horizontal Bar Chart**: Skill vs. Number of Postings
+
 
 ---
 
@@ -101,8 +100,6 @@ ORDER BY average_salary_skill DESC
 LIMIT 25;
 ```
 
-💡 **Suggested Visualization:**
-- **Bar Chart**: Skill vs. Average Salary
 
 ---
 
@@ -142,9 +139,7 @@ ORDER BY average_salary_skill DESC, demand_count DESC
 LIMIT 25;
 ```
 
-🎯 **Suggested Visualization:**
-- **Scatter Plot**: X-axis = Demand | Y-axis = Salary  
-  Highlight optimal skills in the top-right quadrant (high pay, high demand)
+
 
 ---
 
@@ -157,12 +152,11 @@ This project offers a **strategic roadmap** for aspiring or current Data Analyst
 
 ---
 
-## 📎 License
 
-MIT License
 
 ---
 
 ## 👤 Author
 
 *Created by Adewole Oyekunle.*
+
